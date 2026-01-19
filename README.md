@@ -4,10 +4,10 @@ Este proyecto analiza los factores demográficos, económicos y territoriales qu
 
 ## 📋 Descripción del Proyecto
 
-La participación electoral es un indicador clave de la salud democrática. [cite_start]Este estudio utiliza técnicas de **Minería de Datos** y **Modelización Predictiva** para abordar dos objetivos analíticos complementarios basados en datos reales de municipios españoles[cite: 2003, 2011]:
+La participación electoral es un indicador clave de la salud democrática. Este estudio utiliza técnicas de **Minería de Datos** y **Modelización Predictiva** para abordar dos objetivos analíticos complementarios basados en datos reales de municipios españoles:
 
 1.  **Regresión Lineal (Enfoque Explicativo):** Modelizar el porcentaje exacto de abstención (`AbstentionPtge`) en función de variables socioeconómicas.
-2.  [cite_start]**Regresión Logística (Enfoque de Clasificación):** Predecir la probabilidad de que un municipio tenga una "Abstención Alta" (superior al 30%) (`AbstencionAlta`)[cite: 2008].
+2.  **Regresión Logística (Enfoque de Clasificación):** Predecir la probabilidad de que un municipio tenga una "Abstención Alta" (superior al 30%) (`AbstencionAlta`).
 
 El flujo de trabajo abarca desde la depuración de datos crudos hasta la selección de variables mediante algoritmos *Stepwise* y la validación cruzada de los modelos.
 
@@ -16,21 +16,21 @@ El flujo de trabajo abarca desde la depuración de datos crudos hasta la selecci
 El proyecto sigue un pipeline riguroso de Data Science:
 
 ### 1. Ingeniería y Limpieza de Datos
-[cite_start]Se realizó un preprocesamiento exhaustivo para garantizar la calidad del dato[cite: 2014, 2024]:
+Se realizó un preprocesamiento exhaustivo para garantizar la calidad del dato:
 * **Tratamiento de Nulos:** Imputación estadística (mediana/moda) y análisis de patrones de correlación de valores ausentes.
 * **Detección de Anomalías:** Análisis de *outliers* mediante rango intercuartílico y visualización robusta.
 * **Corrección de Errores:** Estandarización de variables categóricas (CCAA, Actividad Principal) y corrección de inconsistencias numéricas.
 
-![Análisis de Valores Perdidos](grafico_missings_filtrado.png)
+![Análisis de Valores Perdidos](grafico_missings_filtrado.svg)
 *Figura 1: Análisis de la calidad del dato previo al modelado.*
 
 ### 2. Modelado Predictivo
-[cite_start]Se implementaron algoritmos de selección de variables clásica (Forward, Backward, Stepwise) optimizando criterios de información (AIC/BIC)[cite: 2027, 2037].
+Se implementaron algoritmos de selección de variables clásica (Forward, Backward, Stepwise) optimizando criterios de información (AIC/BIC)[cite: 2027, 2037].
 
 * **Modelo Lineal:** Capaz de explicar un 36% de la varianza del fenómeno ($R^2 \approx 0.36$), destacando la importancia de factores regionales.
 * **Modelo Logístico:** Alcanzó un **AUC > 0.80** en el conjunto de test, demostrando una gran capacidad discriminante para detectar municipios con riesgo de alta abstención.
 
-![Distribución de Atípicos](grafico_atipicos.png)
+![Distribución de Atípicos](grafico_atipicos.svg)
 *Figura 2: Distribución de variables y detección de valores atípicos normalizados.*
 
 ## 📊 Tecnologías Utilizadas
