@@ -1,6 +1,6 @@
 # Análisis de los Determinantes de la Abstención Electoral en España 🗳️
 
-Este proyecto analiza los factores demográficos, económicos y territoriales que influyen en el comportamiento electoral en los municipios de España. [cite_start]Fue desarrollado como parte del **Máster en Big Data, Data Science & Inteligencia Artificial** de la Universidad Complutense de Madrid[cite: 2001].
+Este proyecto analiza los factores demográficos, económicos y territoriales que influyen en el comportamiento electoral en los municipios de España. Fue desarrollado como parte del **Máster en Big Data, Data Science & Inteligencia Artificial** de la Universidad Complutense de Madrid.
 
 ## 📋 Descripción del Proyecto
 
