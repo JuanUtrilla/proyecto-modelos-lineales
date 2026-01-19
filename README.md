@@ -25,7 +25,7 @@ Se realizó un preprocesamiento exhaustivo para garantizar la calidad del dato:
 *Figura 1: Análisis de la calidad del dato previo al modelado.*
 
 ### 2. Modelado Predictivo
-Se implementaron algoritmos de selección de variables clásica (Forward, Backward, Stepwise) optimizando criterios de información (AIC/BIC)[cite: 2027, 2037].
+Se implementaron algoritmos de selección de variables clásica (Forward, Backward, Stepwise) optimizando criterios de información (AIC/BIC).
 
 * **Modelo Lineal:** Capaz de explicar un 36% de la varianza del fenómeno ($R^2 \approx 0.36$), destacando la importancia de factores regionales.
 * **Modelo Logístico:** Alcanzó un **AUC > 0.80** en el conjunto de test, demostrando una gran capacidad discriminante para detectar municipios con riesgo de alta abstención.
