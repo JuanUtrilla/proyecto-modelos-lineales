@@ -21,7 +21,7 @@ Se realizó un preprocesamiento exhaustivo para garantizar la calidad del dato:
 * **Detección de Anomalías:** Análisis de *outliers* mediante rango intercuartílico y visualización robusta.
 * **Corrección de Errores:** Estandarización de variables categóricas (CCAA, Actividad Principal) y corrección de inconsistencias numéricas.
 
-![Análisis de Valores Perdidos](grafico_missings_filtrado.svg)
+![Análisis de Valores Perdidos](images/grafico_missings_filtrado.svg)
 *Figura 1: Análisis de la calidad del dato previo al modelado.*
 
 ### 2. Modelado Predictivo
@@ -30,7 +30,7 @@ Se implementaron algoritmos de selección de variables clásica (Forward, Backwa
 * **Modelo Lineal:** Capaz de explicar un 36% de la varianza del fenómeno ($R^2 \approx 0.36$), destacando la importancia de factores regionales.
 * **Modelo Logístico:** Alcanzó un **AUC > 0.80** en el conjunto de test, demostrando una gran capacidad discriminante para detectar municipios con riesgo de alta abstención.
 
-![Distribución de Atípicos](grafico_atipicos.svg)
+![Distribución de Atípicos](images/grafico_atipicos.svg)
 *Figura 2: Distribución de variables y detección de valores atípicos normalizados.*
 
 ## 📊 Tecnologías Utilizadas
